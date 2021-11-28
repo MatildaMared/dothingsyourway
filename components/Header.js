@@ -13,6 +13,7 @@ const Wrapper = styled.header`
 	display: flex;
 `;
 const Heading = styled.h1`
+	color: blue;
 	font-weight: 900;
 	font-size: 2rem;
 	padding: 0;

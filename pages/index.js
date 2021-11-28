@@ -2,8 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Prismic from "@prismicio/client";
 import { RichText } from "prismic-reactjs";
-import GlobalStyles from "../styles/globalStyles";
-import CSSVariables from "../styles/cssVariables";
 
 // Project components & functions
 import { Client } from "../utils/prismicHelpers";
@@ -19,9 +17,7 @@ const Home = ({ blogHome, posts, previewRef }) => {
 
 	if (blogHome && blogHome.data) {
 		return (
-      <>
-        <CSSVariables />
-        <GlobalStyles />
+			<>
 				<DefaultLayout>
 					<Head>
 						<title>{RichText.asText(blogHome.data.headline)}</title>
