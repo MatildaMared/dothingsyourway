@@ -38,8 +38,8 @@ const Post = ({ post, previewRef }) => {
 				<Head>
 					<title>{title}</title>
 				</Head>
-				<div className="main">
-					<div className="outer-container">
+				<div>
+					<div>
 						<BackButton />
 						<h1>{title}</h1>
 					</div>
